@@ -13,7 +13,7 @@ import { setInkColor, toggleDrawCanvas } from './utils/draw.mjs';
 
 const pageEl = document.querySelector('.page-a');
 
-const w = pageEl.getBoundingClientRect().width;
+
 
 const setTextareaStyle = (attrib, v) => (pageEl.style[attrib] = v);
 
